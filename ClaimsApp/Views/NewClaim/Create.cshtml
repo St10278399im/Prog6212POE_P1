@@ -1,0 +1,91 @@
+﻿@model ClaimsApp.Models.NewClaim
+
+@{
+    ViewBag.Title = "Submit New Claim";
+}
+
+<h2>Submit New Claim</h2>
+
+@using (Html.BeginForm("Create", "NewClaim", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        <hr />
+
+        <!-- First Name -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Last Name -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Surname, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Surname, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.Surname, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Hours Worked -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.HoursWorked, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.HoursWorked, new { @class = "form-control", type = "number", step = "0.1" })
+                @Html.ValidationMessageFor(model => model.HoursWorked, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Hourly Rate -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.HourlyRate, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.HourlyRate, new { @class = "form-control", type = "number", step = "0.01" })
+                @Html.ValidationMessageFor(model => model.HourlyRate, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Description -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = 3 })
+                @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Date -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.Date, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.Date, "{0:yyyy-MM-dd}", new { @class = "form-control", type = "date" })
+                @Html.ValidationMessageFor(model => model.Date, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Claim ID -->
+        <div class="form-group">
+            @Html.LabelFor(model => model.ClaimId, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(model => model.ClaimId, new { @class = "form-control" })
+                @Html.ValidationMessageFor(model => model.ClaimId, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Submit Claim" class="btn btn-primary" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+

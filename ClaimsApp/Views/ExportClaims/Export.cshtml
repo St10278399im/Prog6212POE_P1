@@ -1,0 +1,52 @@
+﻿@model List<ClaimsApp.Models.Claim>
+
+@{
+    ViewData["Title"] = "Export Pending Claims";
+}
+
+<h2 class="text-center mt-4">Pending Claims</h2>
+
+@if (Model != null && Model.Any())
+{
+    <form asp-controller="ListOfClaims" asp-action="ExportToExcel" method="post">
+        <div class="text-end mb-3">
+            <button type="submit" class="btn btn-success">
+                📤 Export to Excel
+            </button>
+        </div>
+
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model)
+                {
+                    <tr>
+                        <td>@claim.ClaimId</td>
+                        <td>@claim.Name</td>
+                        <td>@claim.Surname</td>
+                        <td>@claim.Description</td>
+                        <td>
+                            <span class="badge bg-warning text-dark">@claim.Status</span>
+                        </td>
+                        <td>@claim.Date.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </form>
+}
+else
+{
+    <div class="alert alert-info text-center mt-4">
+        No pending claims to export.
+    </div>
+}

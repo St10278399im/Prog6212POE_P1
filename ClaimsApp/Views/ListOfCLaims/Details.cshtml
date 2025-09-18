@@ -1,0 +1,31 @@
+﻿@model ClaimsApp.Models.ListOfClaims
+
+<h2>Claim Details</h2>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">Claim ID</dt>
+        <dd class="col-sm-9">@Model.ClaimId</dd>
+
+        <dt class="col-sm-3">First Name</dt>
+        <dd class="col-sm-9">@Model.Name</dd>
+
+        <dt class="col-sm-3">Last Name</dt>
+        <dd class="col-sm-9">@Model.Surname</dd>
+
+        <dt class="col-sm-3">Hours Worked</dt>
+        <dd class="col-sm-9">@Model.HoursWorked</dd>
+
+        <dt class="col-sm-3">Hourly Rate (£)</dt>
+        <dd class="col-sm-9">@Model.HourlyRate.ToString("C")</dd>
+
+        <dt class="col-sm-3">Description</dt>
+        <dd class="col-sm-9">@Model.Description</dd>
+
+        <dt class="col-sm-3">Date</dt>
+        <dd class="col-sm-9">@Model.Date.ToShortDateString()</dd>
+    </dl>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.ClaimId" class="btn btn-primary">Edit</a>
+<a asp-action="Index" class="btn btn-secondary">Back to List</a>

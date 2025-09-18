@@ -1,0 +1,602 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\newclaim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\newclaim\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofpending\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofpending\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofpending\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofpending\\review.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\listofpendingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\listofpendingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofclaims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofclaims\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\account\\signup.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\signup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\claimshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\claimshistorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\claimshistory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\claimshistory\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\monthlyclaimsystem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\monthlyclaimsystem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\monthlyclaimsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\monthlyclaimsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\monthlyclaimsystem\\exportdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\monthlyclaimsystem\\exportdocument.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\adminsystem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\adminsystem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\exportdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\exportdocument.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\newclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\newclaimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\claim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\exportclaims\\export.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\exportclaims\\export.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\adminsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\adminsystemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\admindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofclaims\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofclaims\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\monthlyclaimsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\monthlyclaimsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofclaims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofclaims\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\listofpending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\listofpending.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\controllers\\listofclaimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:controllers\\listofclaimscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\views\\listofclaims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:views\\listofclaims\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\listofclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\listofclaims.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|c:\\users\\hmaba\\source\\repos\\claimsapp\\models\\newclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D4BC408-7A5D-4F8D-91E7-76303770BE45}|ClaimsApp.csproj|solutionrelative:models\\newclaim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListOfPendingController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ListOfPendingController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListOfPendingController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ListOfPendingController.cs",
+              "RelativeToolTip": "Controllers\\ListOfPendingController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:55:53.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClaimsHistoryController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ClaimsHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClaimsHistoryController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ClaimsHistoryController.cs",
+              "RelativeToolTip": "Controllers\\ClaimsHistoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:48:37.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T18:35:13.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-17T18:14:26.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NewClaimController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\NewClaimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NewClaimController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\NewClaimController.cs",
+              "RelativeToolTip": "Controllers\\NewClaimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:08:32.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ExportDocument.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\MonthlyClaimSystem\\ExportDocument.cshtml",
+              "RelativeDocumentMoniker": "Views\\MonthlyClaimSystem\\ExportDocument.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\MonthlyClaimSystem\\ExportDocument.cshtml",
+              "RelativeToolTip": "Views\\MonthlyClaimSystem\\ExportDocument.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:55:32.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ExportDocument.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ExportDocument.cs",
+              "RelativeDocumentMoniker": "Models\\ExportDocument.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ExportDocument.cs",
+              "RelativeToolTip": "Models\\ExportDocument.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:54:27.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Claim.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\Claim.cs",
+              "RelativeDocumentMoniker": "Models\\Claim.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\Claim.cs",
+              "RelativeToolTip": "Models\\Claim.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:46:22.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Export.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ExportClaims\\Export.cshtml",
+              "RelativeDocumentMoniker": "Views\\ExportClaims\\Export.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ExportClaims\\Export.cshtml",
+              "RelativeToolTip": "Views\\ExportClaims\\Export.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:45:08.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ClaimsHistory\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ClaimsHistory\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ClaimsHistory\\Index.cshtml",
+              "RelativeToolTip": "Views\\ClaimsHistory\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:16:51.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AdminSystemController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\AdminSystemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminSystemController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\AdminSystemController.cs",
+              "RelativeToolTip": "Controllers\\AdminSystemController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:11:56.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\AdminDashboard.cs",
+              "RelativeDocumentMoniker": "Models\\AdminDashboard.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\AdminDashboard.cs",
+              "RelativeToolTip": "Models\\AdminDashboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:10:03.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\AdminSystem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AdminSystem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\AdminSystem\\Index.cshtml",
+              "RelativeToolTip": "Views\\AdminSystem\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:09:21.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:05:54.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MonthlyClaimSystem.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\MonthlyClaimSystem.cs",
+              "RelativeDocumentMoniker": "Models\\MonthlyClaimSystem.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\MonthlyClaimSystem.cs",
+              "RelativeToolTip": "Models\\MonthlyClaimSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T17:03:32.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\MonthlyClaimSystem\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\MonthlyClaimSystem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\MonthlyClaimSystem\\Index.cshtml",
+              "RelativeToolTip": "Views\\MonthlyClaimSystem\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T17:01:57.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "Models\\Login.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\Login.cs",
+              "RelativeToolTip": "Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:53:41.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T16:49:51.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SignUp.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Account\\SignUp.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\SignUp.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Account\\SignUp.cshtml",
+              "RelativeToolTip": "Views\\Account\\SignUp.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T16:45:32.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignUp.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\SignUp.cs",
+              "RelativeDocumentMoniker": "Models\\SignUp.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\SignUp.cs",
+              "RelativeToolTip": "Models\\SignUp.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:43:31.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MonthlyClaimSystemController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\MonthlyClaimSystemController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MonthlyClaimSystemController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\MonthlyClaimSystemController.cs",
+              "RelativeToolTip": "Controllers\\MonthlyClaimSystemController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:39:46.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:38:53.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T16:16:15.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Review.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfPending\\Review.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfPending\\Review.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfPending\\Review.cshtml",
+              "RelativeToolTip": "Views\\ListOfPending\\Review.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T16:14:30.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfPending\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfPending\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfPending\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListOfPending\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T16:12:32.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ListOfPending.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ListOfPending.cs",
+              "RelativeDocumentMoniker": "Models\\ListOfPending.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ListOfPending.cs",
+              "RelativeToolTip": "Models\\ListOfPending.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T16:05:16.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfCLaims\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Delete.cshtml",
+              "RelativeToolTip": "Views\\ListOfCLaims\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:57:19.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfCLaims\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Edit.cshtml",
+              "RelativeToolTip": "Views\\ListOfCLaims\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:56:42.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfCLaims\\Details.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Details.cshtml",
+              "RelativeToolTip": "Views\\ListOfCLaims\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:56:14.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOfCLaims\\Index.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\ListOfCLaims\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListOfCLaims\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:55:04.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ListOfClaimsController.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ListOfClaimsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ListOfClaimsController.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Controllers\\ListOfClaimsController.cs",
+              "RelativeToolTip": "Controllers\\ListOfClaimsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:50:00.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ListOfClaims.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ListOfClaims.cs",
+              "RelativeDocumentMoniker": "Models\\ListOfClaims.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\ListOfClaims.cs",
+              "RelativeToolTip": "Models\\ListOfClaims.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA6wC8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:48:24.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\NewClaim\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\NewClaim\\Create.cshtml",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Views\\NewClaim\\Create.cshtml",
+              "RelativeToolTip": "Views\\NewClaim\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-17T15:40:45.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "NewClaim.cs",
+              "DocumentMoniker": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\NewClaim.cs",
+              "RelativeDocumentMoniker": "Models\\NewClaim.cs",
+              "ToolTip": "C:\\Users\\hmaba\\source\\repos\\ClaimsApp\\Models\\NewClaim.cs",
+              "RelativeToolTip": "Models\\NewClaim.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T15:34:48.341Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

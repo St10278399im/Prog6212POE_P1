@@ -1,0 +1,60 @@
+﻿@model ClaimsApp.Models.ListOfClaims
+
+<h2>Edit Claim</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Surname"></label>
+        <input asp-for="Surname" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HoursWorked"></label>
+        <input asp-for="HoursWorked" class="form-control" type="number" step="0.1" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="HourlyRate"></label>
+        <input asp-for="HourlyRate" class="form-control" type="number" step="0.01" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Date"></label>
+        <input asp-for="Date" type="date" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="SupportingDocumentFile"></label>
+        <input asp-for="SupportingDocumentFile" type="file" class="form-control" />
+
+        @if (!string.IsNullOrEmpty(Model.SupportingDocumentPath))
+        {
+            <p class="mt-2">
+                Existing Document:
+                <a href="@Url.Content("~/uploads/" + Model.SupportingDocumentPath)" target="_blank">
+                    @Model.SupportingDocumentPath
+                </a>
+            </p>
+        }
+    </div>
+
+    <input type="hidden" asp-for="ClaimId" />
+    <input type="hidden" asp-for="SupportingDocumentPath" />
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

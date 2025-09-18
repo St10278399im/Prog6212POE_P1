@@ -1,0 +1,40 @@
+﻿@model ClaimsApp.Models.ListOfPending
+
+<h2>Review Claim</h2>
+
+<dl class="row">
+    <dt class="col-sm-3">Claim ID</dt>
+    <dd class="col-sm-9">@Model.ClaimId</dd>
+
+    <dt class="col-sm-3">Name</dt>
+    <dd class="col-sm-9">@Model.Name @Model.Surname</dd>
+
+    <dt class="col-sm-3">Hours Worked</dt>
+    <dd class="col-sm-9">@Model.HoursWorked</dd>
+
+    <dt class="col-sm-3">Hourly Rate (£)</dt>
+    <dd class="col-sm-9">@Model.HourlyRate.ToString("C")</dd>
+
+    <dt class="col-sm-3">Description</dt>
+    <dd class="col-sm-9">@Model.Description</dd>
+
+    <dt class="col-sm-3">Date</dt>
+    <dd class="col-sm-9">@Model.Date.ToShortDateString()</dd>
+
+    <dt class="col-sm-3">Document</dt>
+    <dd class="col-sm-9">
+        @if (!string.IsNullOrEmpty(Model.SupportingDocumentPath))
+        {
+            <a href="@Url.Content("~/uploads/" + Model.SupportingDocumentPath)" target="_blank">View Document</a>
+        }
+        else
+        {
+            <span>No document uploaded</span>
+        }
+    </dd>
+
+    <dt class="col-sm-3">Status</dt>
+    <dd class="col-sm-9">@Model.Status</dd>
+</dl>
+
+<a asp-action="Index" class="btn btn-secondary">Back</a>

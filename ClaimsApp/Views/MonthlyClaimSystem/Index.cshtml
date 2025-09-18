@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Monthly Claim System";
+}
+
+<h2 class="text-center mt-4">Monthly Claim System</h2>
+
+<div class="container mt-5">
+
+    <!-- Search bar -->
+    <form asp-controller="MonthlyClaimSystem" asp-action="SearchClaims" method="get" class="form-inline mb-4 d-flex justify-content-center">
+        <input type="text" name="query" class="form-control w-50 mr-2" placeholder="Search claims..." />
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </form>
+
+    <!-- Dashboard buttons -->
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a asp-controller="NewClaim" asp-action="Create" class="btn btn-success btn-lg m-2">
+            ➕ New Claim
+        </a>
+
+        <a asp-controller="ListOfClaims" asp-action="Index" class="btn btn-primary btn-lg m-2">
+            📋 List of Claims
+        </a>
+
+        <a asp-controller="ListOfClaims" asp-action="Export" class="btn btn-warning btn-lg m-2">
+            📤 Export Claims Doc
+        </a>
+
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger btn-lg m-2">
+            ❌ Exit
+        </a>
+    </div>
+</div>

@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h2 class="text-center mt-4">Admin Control Panel</h2>
+
+<div class="container mt-5">
+
+    <!-- 🔍 Search bar -->
+    <form asp-controller="AdminSystem" asp-action="SearchClaims" method="get" class="form-inline mb-4 d-flex justify-content-center">
+        <input type="text" name="query" class="form-control w-50 mr-2" placeholder="Search claims..." value="@Model?.SearchQuery" />
+        <button type="submit" class="btn btn-outline-primary">Search</button>
+    </form>
+
+    <!-- 📂 Action Buttons -->
+    <div class="d-flex justify-content-center flex-wrap gap-3">
+        <a asp-controller="ListOfPending" asp-action="Index" class="btn btn-warning btn-lg m-2">
+            📋 List of Pending Claims
+        </a>
+
+        <a asp-controller="ClaimsHistory" asp-action="Index" class="btn btn-secondary btn-lg m-2">
+            📜 Claims History
+        </a>
+
+        <a asp-controller="ListOfClaims" asp-action="Export" class="btn btn-info btn-lg m-2">
+            📤 Export Claims
+        </a>
+
+        <a asp-controller="Account" asp-action="Logout" class="btn btn-danger btn-lg m-2">
+            ❌ Exit
+        </a>
+    </div>
+
+    <!-- 📊 Search Results -->
+    @if (Model?.SearchResults != null && Model.SearchResults.Any())
+    {
+        <h4 class="mt-5">Search Results:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Claim ID</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Description</th>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var claim in Model.SearchResults)
+                {
+                    <tr>
+                        <td>@claim.ClaimId</td>
+                        <td>@claim.Name</td>
+                        <td>@claim.Surname</td>
+                        <td>@claim.Description</td>
+                        <td>@claim.Status</td>
+                        <td>@claim.Date.ToShortDateString()</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else if (!string.IsNullOrEmpty(Model?.SearchQuery))
+    {
+        <p class="mt-4 text-muted text-center">No results found for "<strong>@Model.SearchQuery</strong>".</p>
+    }
+
+</div>
